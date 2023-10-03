@@ -1,0 +1,19 @@
+body{
+    background-color: blanchedalmond;
+}
+
+.box{
+    border: 2px dashed red;
+}
+
+.text2{
+    border: 2px dashed blue;
+    padding: 20px 30px; 
+}
+
+.text{
+    border: 2px dashed blue;
+    padding: 20px 30px; 
+    background: lightblue; 
+    margin: 100px;
+}
