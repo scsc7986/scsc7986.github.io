@@ -1,0 +1,85 @@
+#box1 {
+    position: fixed; 
+    top: 50px;
+    left: 50px;
+    background-color: rgb(47, 255, 113);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding-bottom: 25px;
+
+    width: 100px;
+    height: 100px; 
+}
+
+#box2 {
+    position: fixed; 
+    top: 50px;
+    left: 150px;
+    background-color: gray;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    padding-top: 5px;
+
+    width: 100px;
+    height: 100px; 
+}
+
+#box3 {
+    position: fixed; 
+    top: 50px;
+    left: 250px;
+    background-color: yellow;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 35px;
+    padding-bottom: 25px;
+
+    width: 100px;
+    height: 100px; 
+    
+}
+
+#box4 {
+    position: fixed; 
+    top: 15px;
+    left: 50px;
+    background-color: lightgrey;
+    text-align: center;
+
+    width: 100px;
+    height: 50px; 
+}
+
+#box5 {
+    position: fixed; 
+    top: 15px;
+    left: 250px;
+    background-color:lightgray ;
+    text-align: center;
+
+    width: 100px;
+    height: 50px; 
+}
+
+#box6 {
+    position: fixed; 
+    top: 745px;
+    left: 1210px;
+    background-color:red ;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    padding-bottom: 15px;
+
+    width: 200px;
+    height: 50px; 
+}
+body { 
+    Background: url(../img/formula-drift.jpeg);
+    background-size:cover;
+   
+    }
+    
