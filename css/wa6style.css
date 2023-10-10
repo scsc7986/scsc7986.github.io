@@ -72,10 +72,10 @@
     color: white;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
-    padding-bottom: 15px;
+    padding-bottom: 40px;
 
     width: 200px;
-    height: 50px; 
+    height: 20px; 
 }
 body { 
     Background: url(../img/formula-drift.jpeg);
