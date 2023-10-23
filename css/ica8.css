@@ -21,7 +21,6 @@ body{
     animation-iteration-count: infinite;
     animation-direction: alternate-reverse; 
     animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1); 
-
 }
 
 @keyframes box2move{
