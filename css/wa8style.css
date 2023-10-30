@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: pink;
+    font-family: papyrus;
+}
+nav {
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: limegreen;
+}
+nav a {
+    width: 10vw;
+    text-align: center;
+    text-decoration: none;
+    color: blue;
+}
+img {
+    width: 30vw;
+    height: 30vh;
+}
+img:hover {
+    width: 100%;
+}
+#red-ball {
+    background-color: purple;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+    left: 5vw;
+    top: 0;
+    animation-name: getBig;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    animation-direction: normal;
+}
+@keyframes getBig {
+    from {
+        transform: scale(0);
+        margin: 0 100% 100% 0;
+    
+        transform: scale(5);
+        margin: 100% 0 0 100%;
+    }
+}
