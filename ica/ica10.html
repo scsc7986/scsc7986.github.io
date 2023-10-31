@@ -1,17 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Image Pop-up Example</title>
-    <link rel="stylesheet" type="text/css" href="../css/ica10style.css">
+    <title>Image Buttons</title>
 </head>
 <body>
-    <div id="buttonContainer">
-        <button id="showImageBtn">Show Image</button>
-    </div>
-    <div id="imageContainer" style="display: none;">
-        <img src="../img/toyota.webp" alt="Image">
-    </div>
+    <button id="showImage1Button">Show Image 1</button>
+    <button id="showImage2Button">Show Image 2</button>
+    <img id="image1" style="display: none;" src="../img/toyota.webp" alt="Image 1">
+    <img id="image2" style="display: none;" src="../img/tacoma.jpeg" alt="Image 2">
 
-    <script src="script.js"></script>
+    <script>
+        var showImage1Button = document.getElementById("showImage1Button");
+        var showImage2Button = document.getElementById("showImage2Button");
+        var image1 = document.getElementById("image1");
+        var image2 = document.getElementById("image2");
+
+        showImage1Button.addEventListener("click", function() {
+            image1.style.display = "block";
+            image2.style.display = "none"; 
+        });
+
+        showImage2Button.addEventListener("click", function() {
+            image1.style.display = "none"; 
+            image2.style.display = "block";
+        });
+    </script>
 </body>
 </html>
+
+
