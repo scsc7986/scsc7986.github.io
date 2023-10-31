@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button{
+            font-family: "helvetica neue" , helvetica, sans-serif;
+            letter-spacing: 1px; 
+            border: 2px solid rgb(200 200 0 / 0.6);
+            background-color: rbg(0 217 217 / 0.6); 
+            color: red
+            padding: 3px 10px; 
+            cursor: pointer; 
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <button type="button">Player 1: Will</button>
+
+    <script>
+        const button = document.querySelector("button"); 
+
+        button.addEventListener('click', updateName); 
+
+
+        function upadateName() {
+            let name = prompt("Enter a new name")
+            button.textContent = `Player 1: ${name}`;
+        }
+    </script>
+</body>
+</html>

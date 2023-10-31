@@ -1,4 +1,3 @@
-
 h1 {
     font-family: "Cursive", serif;
     font-size: 36px;
@@ -8,9 +7,23 @@ h1 {
     border-bottom: 2px solid #ff5722;
 }
 
+section p:nth-child(2) {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+section p:nth-child(3) {
+    font-size: 14px;
+    font-style: italic;
+    color: #333;
+    margin-top: 10px;
+    
+}
 
 h2 {
-    font-family: "Cursive", serif;
+    font-family: "Arial", sans-serif;
 }
 
 p h2 {
@@ -24,7 +37,7 @@ p h2 {
 }
 
 .event-card {
-    flex: 0 0 calc(33.333% - 20px); /* Adjust the width as needed */
+    flex: 0 0 calc(33.333% - 20px);
     border: 2px solid #333;
     border-radius: 5px;
     padding: 15px;
@@ -51,3 +64,13 @@ p h2 {
     text-align: center;
 }
 
+
+@media screen and (max-width: 600px) {
+    .event-cards {
+        flex-direction: column; 
+    }
+    .event-card {
+        flex: 0 0 100%; 
+        margin: 10px 0; 
+    }
+}
