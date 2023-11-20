@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/wa12.css">
+    <title>Chuck Norris Joke</title>
+</head>
+<body>
+    <div class="app">
+        <header>Chuck Norris Joke</header>
+        <section class="jokes">
+            <div class="jokes-text" id="js-quote-text" onclick="toggleContent()"></div>
+            <div class="answer-text" id="js-answer-text"></div>
+        </section>
+        <section class="controls">
+            <button type="button" id="js-new-quote" class="new-joke button">
+                Generate a new Chuck Norris Joke!
+            </button>
+            <button type="button" id="js-tweet" class="tweet button" onclick="tweetJoke()">
+                Tweet this joke!
+            </button>
+        </section>
+    </div>
+    <script src="../js/wa12.js"></script>
+</body>
+</html>
